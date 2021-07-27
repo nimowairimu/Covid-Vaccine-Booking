@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
                          noSchedule.textContent = 'No results Found';
                       consultations.appendChild(noSchedule);
                     } else {
-                        services.textContent = 'Cancel Your consultations'
+                        services.textContent = 'Cancel Your Appointment'
                     }
                }
           }
