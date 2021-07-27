@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Consultation</title>
+    <title>Covid Appointment Booking </title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,9 +38,9 @@
 
    <section id="hero" class="d-flex align-items-center">
     <div class="container text-center position-relative">
-      <h1>24/7 Care is available</h1>
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, deleniti.</h2>
-      <a href="#about" class="main-btn">Get Started</a>
+      <h1>Are you thinking of grtting the Covid-19 vaccine?/h1>
+      <h2>Get a hassle free experience by booking a date of your conviniece with us at a hospital you would like.</h2>
+      <a href="#about" class="main-btn">Get Started Now !</a>
     </div>
   </section>
   <div class="container mt-4 p-4">
@@ -50,6 +50,25 @@
                   Book Appointment
               </h2>
               <form>
+                <!-- Question 1 -->
+      <h2>Which hospital would you like to get the vaccine from?</h2>
+      <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+      <!-- The value is which answer the choice corresponds to. -->
+      <label><input type="radio" name="q1" value="c1">
+        Kenyatta Hospital
+      </label><br />
+      <label><input type="radio" name="q1" value="c2">
+        Metropolitan Hospital Nairobi
+      </label><br />
+      <label><input type="radio" name="q1" value="c3">
+        Kenyatta University Teaching Refferal Hospital
+      </label><br />
+      <label><input type="radio" name="q1" value="c4">
+       Nairobi West Hospital 
+      </label><br />
+      <label><input type="radio" name="q1" value="c4">
+       Mbagathi Hospital
+       </label><br />
                   <div class="form-group row">
                       <label class="col-sm-4 col-lg-4">
                           Patient Name
@@ -90,7 +109,7 @@
                 <!---->
                 <div class="form-group row">
                     <label class="col-sm-4 col-lg-4">
-                       Symptoms
+                      Any Symptoms
                     </label>
                     <div class="col-sm-8 col-lg-8">
                         <textarea id="symptoms" class="form-control" required></textarea>
